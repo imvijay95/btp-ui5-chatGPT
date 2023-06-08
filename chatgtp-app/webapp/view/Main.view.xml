@@ -1,0 +1,19 @@
+<mvc:View controllerName="chatgtpapp.controller.Main"
+    xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+    xmlns="sap.m">
+    <Shell id="shell">
+        <App id="app">
+            <pages>
+                <Page id="page" title="Get Response from ChatGPT">
+                    <content>
+                        <VBox>
+                            <Input id="idInput"/>
+                            <Button text="Get Answer" press="onPressGPT"/>
+                            <Text id="idText"/>
+                        </VBox>
+                    </content>
+                </Page>
+            </pages>
+        </App>
+    </Shell>
+</mvc:View>
